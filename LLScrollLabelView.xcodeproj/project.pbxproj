@@ -15,6 +15,10 @@
 		0C8E0AF620D8DDCC00E2279B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E0AF520D8DDCC00E2279B /* main.m */; };
 		0C8E0B0020D8DDCC00E2279B /* LLScrollLabelViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E0AFF20D8DDCC00E2279B /* LLScrollLabelViewTests.m */; };
 		0C8E0B0B20D8DDCC00E2279B /* LLScrollLabelViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E0B0A20D8DDCC00E2279B /* LLScrollLabelViewUITests.m */; };
+		0C8E0B1B20D8DDF600E2279B /* LLMoreCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E0B1A20D8DDF600E2279B /* LLMoreCollectionViewCell.m */; };
+		0C8E0B1E20D8DE1D00E2279B /* LLNormalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E0B1D20D8DE1D00E2279B /* LLNormalCollectionViewCell.m */; };
+		0C8E0B2120D8DE7000E2279B /* LLLabelScorllView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8E0B2020D8DE7000E2279B /* LLLabelScorllView.m */; };
+		DD9ACF5B936A3A4B1A782815 /* libPods-LLScrollLabelView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8932C77720373C7129D4B7 /* libPods-LLScrollLabelView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		0C8E0B0620D8DDCC00E2279B /* LLScrollLabelViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLScrollLabelViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8E0B0A20D8DDCC00E2279B /* LLScrollLabelViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLScrollLabelViewUITests.m; sourceTree = "<group>"; };
 		0C8E0B0C20D8DDCC00E2279B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C8E0B1920D8DDF600E2279B /* LLMoreCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLMoreCollectionViewCell.h; sourceTree = "<group>"; };
+		0C8E0B1A20D8DDF600E2279B /* LLMoreCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLMoreCollectionViewCell.m; sourceTree = "<group>"; };
+		0C8E0B1C20D8DE1D00E2279B /* LLNormalCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLNormalCollectionViewCell.h; sourceTree = "<group>"; };
+		0C8E0B1D20D8DE1D00E2279B /* LLNormalCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLNormalCollectionViewCell.m; sourceTree = "<group>"; };
+		0C8E0B1F20D8DE7000E2279B /* LLLabelScorllView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLLabelScorllView.h; sourceTree = "<group>"; };
+		0C8E0B2020D8DE7000E2279B /* LLLabelScorllView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLLabelScorllView.m; sourceTree = "<group>"; };
+		100487CAF60B20DFB41C9B48 /* Pods-LLScrollLabelView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLScrollLabelView.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLScrollLabelView/Pods-LLScrollLabelView.release.xcconfig"; sourceTree = "<group>"; };
+		2F8932C77720373C7129D4B7 /* libPods-LLScrollLabelView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLScrollLabelView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1D9819C54C8E3668DE53B4 /* Pods-LLScrollLabelView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLScrollLabelView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLScrollLabelView/Pods-LLScrollLabelView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9ACF5B936A3A4B1A782815 /* libPods-LLScrollLabelView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C577EC3B12941A7C3428675 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F8932C77720373C7129D4B7 /* libPods-LLScrollLabelView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0C8E0ADA20D8DDCA00E2279B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				0C8E0AFE20D8DDCC00E2279B /* LLScrollLabelViewTests */,
 				0C8E0B0920D8DDCC00E2279B /* LLScrollLabelViewUITests */,
 				0C8E0AE420D8DDCA00E2279B /* Products */,
+				E5E93CE9D37D3CC8D63E121B /* Pods */,
+				0C577EC3B12941A7C3428675 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +125,7 @@
 		0C8E0AE520D8DDCA00E2279B /* LLScrollLabelView */ = {
 			isa = PBXGroup;
 			children = (
+				0C8E0B1820D8DDD100E2279B /* LLScrollLabel */,
 				0C8E0AE620D8DDCA00E2279B /* AppDelegate.h */,
 				0C8E0AE720D8DDCA00E2279B /* AppDelegate.m */,
 				0C8E0AE920D8DDCA00E2279B /* ViewController.h */,
@@ -132,6 +157,28 @@
 			path = LLScrollLabelViewUITests;
 			sourceTree = "<group>";
 		};
+		0C8E0B1820D8DDD100E2279B /* LLScrollLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0C8E0B1920D8DDF600E2279B /* LLMoreCollectionViewCell.h */,
+				0C8E0B1A20D8DDF600E2279B /* LLMoreCollectionViewCell.m */,
+				0C8E0B1C20D8DE1D00E2279B /* LLNormalCollectionViewCell.h */,
+				0C8E0B1D20D8DE1D00E2279B /* LLNormalCollectionViewCell.m */,
+				0C8E0B1F20D8DE7000E2279B /* LLLabelScorllView.h */,
+				0C8E0B2020D8DE7000E2279B /* LLLabelScorllView.m */,
+			);
+			path = LLScrollLabel;
+			sourceTree = "<group>";
+		};
+		E5E93CE9D37D3CC8D63E121B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E1D9819C54C8E3668DE53B4 /* Pods-LLScrollLabelView.debug.xcconfig */,
+				100487CAF60B20DFB41C9B48 /* Pods-LLScrollLabelView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C8E0B0F20D8DDCC00E2279B /* Build configuration list for PBXNativeTarget "LLScrollLabelView" */;
 			buildPhases = (
+				441180CD889A42E5FDC82154 /* [CP] Check Pods Manifest.lock */,
 				0C8E0ADF20D8DDCA00E2279B /* Sources */,
 				0C8E0AE020D8DDCA00E2279B /* Frameworks */,
 				0C8E0AE120D8DDCA00E2279B /* Resources */,
@@ -257,14 +305,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		441180CD889A42E5FDC82154 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLScrollLabelView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C8E0ADF20D8DDCA00E2279B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C8E0B2120D8DE7000E2279B /* LLLabelScorllView.m in Sources */,
 				0C8E0AEB20D8DDCA00E2279B /* ViewController.m in Sources */,
 				0C8E0AF620D8DDCC00E2279B /* main.m in Sources */,
 				0C8E0AE820D8DDCA00E2279B /* AppDelegate.m in Sources */,
+				0C8E0B1B20D8DDF600E2279B /* LLMoreCollectionViewCell.m in Sources */,
+				0C8E0B1E20D8DE1D00E2279B /* LLNormalCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +503,7 @@
 		};
 		0C8E0B1020D8DDCC00E2279B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1D9819C54C8E3668DE53B4 /* Pods-LLScrollLabelView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +521,7 @@
 		};
 		0C8E0B1120D8DDCC00E2279B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 100487CAF60B20DFB41C9B48 /* Pods-LLScrollLabelView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
